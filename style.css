@@ -1,0 +1,115 @@
+#profile-pic {
+    width: 200px;
+    height: 200px;
+    align-content: right;
+    border-radius: 50%;
+}
+
+p {
+   font-size: 20px;
+    font-family: "Lato";
+    font-weight: 300;
+    color: white;
+}
+#footer {
+    font-size: 12px;
+    font-family: "Lato";
+    font-weight: 400;
+    margin-bottom: 30px;
+    
+}
+
+
+/*nav-bar customization*/
+#custom-bootstrap-menu.navbar-default .navbar-brand {
+    color: rgba(119, 119, 119, 1);
+}
+#custom-bootstrap-menu.navbar-default {
+    font-size: 14px;
+    background-color: rgba(255, 255, 255, 1);
+    border-width: 0px;
+    border-radius: 0px;
+    position:fixed;
+    top: 0px;
+    width: 100%;
+    z-index: 10;
+    
+}
+#custom-bootstrap-menu.navbar-default .navbar-nav>li>a {
+    color: rgba(119, 119, 119, 1);
+    background-color: rgba(248, 248, 248, 0);
+}
+#custom-bootstrap-menu.navbar-default .navbar-nav>li>a:hover,
+#custom-bootstrap-menu.navbar-default .navbar-nav>li>a:focus {
+    color: rgba(51, 51, 51, 1);
+    background-color: rgba(248, 248, 248, 1);
+}
+#custom-bootstrap-menu.navbar-default .navbar-nav>.active>a,
+#custom-bootstrap-menu.navbar-default .navbar-nav>.active>a:hover,
+#custom-bootstrap-menu.navbar-default .navbar-nav>.active>a:focus {
+    color: rgba(85, 85, 85, 1);
+    background-color: rgba(248, 248, 248, 1);
+}
+#custom-bootstrap-menu.navbar-default .navbar-toggle {
+    border-color: #f8f8f8;
+}
+#custom-bootstrap-menu.navbar-default .navbar-toggle:hover,
+#custom-bootstrap-menu.navbar-default .navbar-toggle:focus {
+    background-color: #f8f8f8;
+}
+#custom-bootstrap-menu.navbar-default .navbar-toggle .icon-bar {
+    background-color: #f8f8f8;
+}
+#custom-bootstrap-menu.navbar-default .navbar-toggle:hover .icon-bar,
+#custom-bootstrap-menu.navbar-default .navbar-toggle:focus .icon-bar {
+    background-color: #ffffff;
+}
+
+/*Intro*/
+#main-intro {
+    background-image:url(images/DSC0142.JPG);
+        
+}
+
+
+
+.wsite-content-title {
+    font-family:"Montserrat" !important;
+    font-weight:700 !important;
+    letter-spacing: 2px !important;
+    color:whitesmoke;
+    text-align: center;
+
+
+}
+.wsite-content-subtitle {
+    font-family:"Montserrat" !important;
+    font-weight:400 !important;
+    font-size: 30px;
+    letter-spacing: 2px !important;
+    color:whitesmoke;
+
+}
+    
+#main-intro-text {
+    margin-top: 20px;
+    padding-top: 150px;
+    padding-bottom: 130px;
+}
+
+#contact a {
+    color: black;
+    text-decoration: underline;
+}
+#contact b {
+    font-family: "Montserrtat";
+    font-weight:400 !important;
+    font-size: 25px;
+    letter-spacing: 2px !important;
+}
+
+
+#education img {
+    height: 80px;
+    width: auto;
+}
